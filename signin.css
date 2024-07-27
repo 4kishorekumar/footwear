@@ -1,0 +1,93 @@
+/* signincss.css */
+body{
+    background-image: url(signbg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+  }
+  /* Center the form */
+  header{
+    background-color: ;
+  }
+  header h2{
+    color: orange;
+    padding: 10px 10px;
+  }
+  .container {
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  /* Style the form header */
+  h2 {
+    color: #333;
+  }
+  
+  /* Style form labels */
+  label {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .container form{
+    margin-top: 20px;
+  }
+  
+  /* Style form inputs */
+  .form-control {
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    background-color: transparent;
+    border-top: 2px solid white;
+    color: white;
+  }
+  
+  .form-control:focus {
+    border-color: #ff7f50; /* Orange color */
+  
+  }
+  .form-select{
+    background-color: transparent;
+    border-top: 2px solid white;
+    color: white;
+  }
+  /* Style the submit button */
+  .btn-primary {
+    background-color: orange;
+    border-color: orange;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Style the link */
+  a {
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .back-btn{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 7%;
+    margin-top: 5px;
+    padding: 5px 5px;
+    border:none;
+  }
+  p{
+    color: white;
+  }
